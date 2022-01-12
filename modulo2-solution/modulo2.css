@@ -1,0 +1,133 @@
+
+body{
+	background-color: #D4FFFD;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.row{
+	width: 100%;
+ 	font-family: Arial, Helvetica;
+}
+/*formato grande */
+@media (min-width: 992px) {
+/*defino las doce columnas ¿¿es necesario definir las 12?? */
+ .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,  
+ .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  float: left; 
+  position: relative;
+ }
+ .col-lg-4 {
+ 	width: 33%;
+ }
+}
+
+/*formato mediano */
+@media (min-width: 768px) and (max-width: 991px) {
+/*defino las doce columnas ¿¿es necesario definir las 12?? */
+ .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,  
+ .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+     position: relative;
+  }	 
+ .col-md-6 {
+ 	float: left; 
+	width: 50%;
+}	
+ .col-md-12 {
+ 	width: 100%;
+    clear:left;
+ }
+}
+
+/*formato pequeño*/
+@media (max-width: 767px) {
+ .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,  
+ .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  position: relative;
+
+ }
+ .col-sm-12 {
+ 	width: 100%;
+ }
+}
+
+.seccion1{
+	border: solid 2px;
+	box-sizing: border-box; 
+	background-color: #FFF9C4 ;
+	margin-right: 10px;
+    margin-left: : 10px;
+    margin-bottom: 20px;
+}
+.seccion2{
+	border: solid 2px;
+	box-sizing: border-box; 
+	background-color: #FFC107;
+    margin-right: 10px;
+    margin-left: : 10px;
+    margin-bottom: 20px;
+}
+.seccion3{
+	border: solid 2px;
+	box-sizing: border-box; 
+	background-color: #DCEDC8;
+    margin-right: 10px;
+    margin-left: : 10px;
+    margin-bottom: 20px;
+}
+#p1{
+	border: solid 2px;
+	background-color: yellow;
+	width: 100px;
+ 	position: absolute;
+ 	margin-top: 0px; 
+    top: 0px;
+ 	right: 10px;
+ 	text-align: center;
+	font: bold 110% Arial;
+ }
+#p2{
+	border: solid 2px;
+	background-color: #F57C00;
+	width: 100px;
+ 	position: absolute;
+ 	margin-top: 0px; 
+ 	top: 0px;
+ 	right: 10px;
+ 	text-align: center;
+ 	font: bold 110% Arial;
+ }
+#p3{
+	border: solid 2px;
+	background-color: #558B2F;
+	width: 100px;
+ 	position: absolute;
+    margin-top: 0px; 
+ 	top: 0px;
+ 	right: 10px;
+ 	text-align: center;
+ 	font: bold 110% Arial;
+ 	 }
+ #ptext1{
+ 	text-align: justify;
+ 	padding-top: 15px;
+    padding-left: 10px;
+ 	font: 100% Helvetica;
+ 	padding-right: 10px;
+   }
+ #ptext2{
+ 	text-align: justify;
+    padding-top: 15px;
+    padding-left: 10px;
+ 	font: 100% Helvetica;
+ 	padding-right: 10px; 
+  }
+ #ptext3{
+ 	text-align: justify;
+	padding-top: 15px;
+	padding-left: 10px;
+ 	font: 100% Helvetica;
+ 	padding-right: 10px;
+  }
