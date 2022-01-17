@@ -14,14 +14,40 @@
 	<nav id="header-nav" class="navbar navbar-default">
        <div class="container">
          <div class="navbar-header">
-            <a href="index.html" class="pull-left visible-md visible-lg">
+            <a href="index.html" class="float-left d-none d-md-block">
             	<div id="logo-img" alt="Logo image">
             	</div>
             </a>
             <div class="navbar-brand">
                 <a href="index.html"><h1>Restaurante El pato de oro</h1></a>
             </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            	<span class="sr-only">Navegacion</span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+  	        </button>   
          </div>
+
+         <div id="collapsable-nav" class="collapse navbar-collapse">
+         	<ul id="nav-list" class="nav navba-nav navbar-right">
+         		<li>
+         	 	    <a href="#">
+         	    	<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu</a>
+         	    </li>
+                <li>
+                	<a href="#">
+                	<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">A cerca de</a> 	
+				</li>
+                <li>
+                	<a href="#">
+                	<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Premios</a> 	
+                </li>
+                <li id="phone" class="hidden-xs"> 
+                	<a href="tel:123-456-789">
+                	<span>123-456-789</span></a><div>*Entrega a domicilio</div> 	
+                </li>
+            </ul>
         </div>
     </nav>
   </header>
