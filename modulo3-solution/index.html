@@ -10,105 +10,50 @@
 	<link href='https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap' rel='stylesheet'>
 </head>
 <body>
+
   <header>
-	<nav id="header-nav" class="navbar navbar-default">
+	  <nav id="header-nav" class="navbar navbar-default">
        <div class="container">
-         <div class="navbar-header">
-            <a href="index.html" class="float-left d-none d-lg-block">
-            	<div id="logo-img" alt="Logo image">
-            	</div>
-            </a>
-            <div class="navbar-brand">
-                <a href="index.html"><h1>Restaurante El pato de oro</h1></a>
+           <div class="navbar-brand">
+                <a  class="float-left"><h1>Food, LLC</h1>
+                </a>
+           </div>
+           
+           <button type="button" class="navbar-toggle collapsed d-block d-sm-none" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+           <span class="navbar-toggler-icon"></span>  
+              <span class="sr-only">Navegacion</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+           </button>
+           
+           <div id="collapsable-nav" class="collapse navbar-collapse">
+               <ul id="nav-list" class="nav navbar-nav navbar-right d-block d-sm-none text-center">
+                 <li class="nav-item">
+                   <a href="#">Chicken</a>
+                 </li>  
+                 <li class="nav-item">
+                    <a href="#">Beef</a>
+                 </li>
+                 <li class="nav-item">
+                  <a href="#">Shusi</a>
+                </li>
+               </ul>
             </div>
-            
-        </div>
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-        	 <span class="navbar-toggler-icon"></span>  
-            	<span class="sr-only">Navegacion</span>
-            	<span class="icon-bar"></span>
-            	<span class="icon-bar"></span>
-            	<span class="icon-bar"></span>
-  	        </button>   
-         <div id="collapsable-nav" class="collapse navbar-collapse">
-         	<ul id="nav-list" class="nav navbar-nav navbar-right">
-         		<li>
-         	 	    <a href="menu-categorias.html">
-         	    	<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span><br class="hidden-xs">Menu</a>
-         	    </li>
-                <li>
-                	<a href="#">
-                	<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">A cerca de</a> 	
-				</li>
-                <li>
-                	<a href="#">
-                	<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Premios</a> 	
-                </li>
-                <li id="phone" class="hidden-xs"> 
-                	<a href="tel:123-456-789">
-                	<span>123-456-789</span></a><div>*Entrega a domicilio</div> 	
-                </li>
-            </ul>
-          </div>  
-        </div>
-    </nav>
-  </header>
-  <div id ="call-btn" class="d-none d-xm-block">
-  	<a class="btn" href="tel:123-456-789">
-  		<span class="glyphicon glyphion-earphone"></span>123-456-789</a>
+      </nav>
+    </header>
+
+   <h1 class="text-center"> Our Menu </h1>
+
+   <div class="container">
+     <section id="grid" class="col-xs-12">
+       <h3 class="text-center"> Chicken </h3>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br><br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book<br><br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br><br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+    </section> 
   </div>
-  <div id="xs-deliver" class="text-center d-none d-xm-block">*Entrega a domicilio
-  </div>   
 
-  <div id="mi-contenedor" class="container">
-    <div class="jumbotron">
-    		
-    </div>
-
-    <div id="tres-cajones" class="row">
-    	<div class="col-md-4 col-sm-6 col-xs-12">
-    		<a href="menu-categorias.html"><div id="titulo-menu"><span>Menu</span></div></a> 
-    	</div>	
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<a href="especialidades-categorias.html"><div id="titulo-especialidades"><span>Especialidades</span></div></a> 
-    	</div>
-    	<div class="col-md-4 col-sm-12 col-xs-12">
-    		<a href="https://goo.gl/maps/h7sdc6ChA3nhmaut8" target="_blank">
-    			<div id="titulo-mapa">
-    				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.2134359349047!2d-3.693977485812051!3d40.40412227936654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4226254163bc25%3A0x42fe0fa4338afb34!2sCalle%20de%20las%20Delicias%2C%2029%2C%2028045%20Madrid%2C%20Espa%C3%B1a!5e0!3m2!1ses!2snl!4v1642501269379!5m2!1ses!2snl" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    				<span>Mapa</span></div>
-    		</a> 
-    	</div>
-    </div>
-   </div>		
-
-   <footer class="panel-pie">
-   		<div class="container">
-   			<div class="row">
-   				<section id="horarios" class="col-sm-4">
-   					<span>Horario:</span><br>
-   					Lunes a Viernes 9-22h<br> 
-   					Sabados 10-24h<br> 
-   					Domingos: Cerrado
-   					<hr class="d-done d-xm-block">
-   				</section>
-
-   				<section id="direccion" class="col-sm-4">
-   					<span>Direccion:</span><br>
-   					Calle Delicias, 29<br>
-   					Madrid
-   					<hr class="d-done d-xm-block">
-   				</section>
-   				<section id="opiniones" class="col-sm-4">
-   					<p>Muy rico todo</p><br>
-   					<p>El restaurante es muy bonito</p><br>
-   					<p>Tardan mucho en servir</p>
-   				</section>
-</div>
-</div>
-</footer>
-
-
+  
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
